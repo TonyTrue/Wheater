@@ -1,0 +1,101 @@
+
+header {
+  background-color: #588fad;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+  display: flex; /* Agregado para centrar verticalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+#logo {
+  width: 50px; /* Ancho deseado */
+  height: auto;
+}
+
+#titulo {
+  margin-left: 10px; /* Reduje el margen para ajustar mejor los elementos */
+  font-size: 24px; /* Tamaño de fuente aumentado */
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2{
+  text-align: center; 
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+.weather-container,
+.forecast-container {
+  display: none;
+}
+
+.weather-container {
+  width: 30%;
+}
+
+.forecast-container {
+  width: 65%;
+}
+
+.card {
+  width: 100%;
+  /* Estilos para la tarjeta de clima actual */
+}
+
+.card-img-top{
+  width: 20%;
+}
+
+.table-container {
+  width: 100%;
+  /* Estilos para la tabla de pronóstico de 10 días */
+}
+
+.table {
+  width: 80%;
+  /* Estilos para la tabla */
+}
+thead{
+  text-align: center;
+}
+td{
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para el campo de entrada y el botón centrados en la parte superior */
+.input-button-container {
+  text-align: center; /* Centra horizontalmente el contenido */
+  margin-top: 40px; /* Espacio desde la parte superior */
+ 
+}
+
+#Search {
+  width: 40%; 
+  margin-right: 10px; /* Espacio entre el campo de entrada y el botón */
+ border-radius: 5px;
+}
+
+#BtnSearch {
+  /* Estilos para el botón */
+  border-radius: 5px;
+}
+
+.error-message {
+  background-color: #ff8080; /* Color de fondo rojo */
+  color: #fff; /* Texto en blanco */
+  padding: 10px; /* Relleno interno */
+  text-align: center; /* Texto centrado */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-top: 10px; /* Espacio superior */
+  border-radius: 5px; /* Bordes redondeados */
+  display: none; /* Ocultar por defecto */
+}
