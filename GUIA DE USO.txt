@@ -1,0 +1,5 @@
+1.-Tener instalado XAMPP.
+2.-Ubicar la carpeta htdocs e insertar la carpeta Wheater dentro de la misma. En caso de usar Ubuntu, colocar dentro de la carpeta public_html.
+
+3.-Inicializar XAMPP, colocando la url http://localhost/Wheater/Clima.html. En caso de usar Ubuntu correr el 'sudo apache2 start'.
+4.-Observar el proyecto.
